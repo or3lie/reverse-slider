@@ -1,0 +1,41 @@
+.slideshow {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.slide.slide-up {
+	position: relative;
+	//z-index: 10;
+}
+.slide .left-block {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 58%;
+	top: -100%;
+	background-size: cover;
+	position: relative;
+}
+.slide .right-block {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 42%;
+	margin-left: -5px;
+	top: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+.slide img {
+	max-width: 100%;
+	height: auto;
+}
