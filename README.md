@@ -1,4 +1,4 @@
 reverse-slider
 ==============
 
-SLider with opposite images
+Slider with opposite animate images
